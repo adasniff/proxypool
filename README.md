@@ -1,2 +1,2 @@
 # proxypool
-ip代理池，用于爬虫
+ip代理池，
