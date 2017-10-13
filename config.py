@@ -109,27 +109,27 @@ REDIS = {
     "max_conns": 1
 }
 
-# 代理队列名称
-QUEUE_NAME = "pq"
+QUEUE_NAME = "pq"                   # 代理队列名称
 
 # 验证池信息，已验证过的代理
 # 保存的存活时间
 BUCKET_TTL = 60 * 60 * 8
 
-# 代理缓存池名称
-POOL_NAME = "ppool"
-# 记录代理分值的hash表name
-POOL_SCORE_NAME = "pscore"
-# 代理的分值，为零则删除
-PROXY_SCORE = 5
+POOL_NAME = "ppool"                 # 代理缓存池名称
+POOL_SCORE_NAME = "pscore"          # 记录代理分值的hash表name
+PROXY_SCORE = 5                     # 代理的分值，为零则删除
 
 """
 http配置
 """
 
-# 下载超时时间
-DOWNLOAD_TIMEOUT = 10
-# 下载重连次数
-DOWNLOAD_RETRIES = 2
-# 下载延时
-DOWNLOAD_DELAY = 1
+DOWNLOAD_TIMEOUT = 10               # 下载超时时间
+DOWNLOAD_RETRIES = 2                # 下载重连次数
+DOWNLOAD_DELAY = 1                  # 下载延时
+
+"""
+api server
+"""
+
+API_HOST = "0.0.0.0"                # host
+API_PORT = 5001                     # port

@@ -9,6 +9,7 @@ import cloghandler
 
 from spider.SpiderSchedule import spider_run
 from validator.Validator import validator_run
+from api.ProxyApi import api_run
 
 
 def run(argv):
@@ -21,6 +22,8 @@ def run(argv):
         proc_list.append(Process(target=spider_run))
     if "validator" in argv:
         proc_list.append(Process(target=validator_run))
+    if "api" in argv:
+        proc_list.append(Process(target=api_run))
 
     for proc in proc_list:
         proc.start()
