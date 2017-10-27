@@ -5,9 +5,9 @@ ip代理池，支持配置不同数据源抓取方案、自动验证、api服务
 支持python3（py2若需要可以加上）
 
 ## 参考项目
-[**qiyeboy/IPProxyPool**](https://github.com/qiyeboy/IPProxyPool)
+[**IPProxyPool**](https://github.com/qiyeboy/IPProxyPool)
 
-[**jhao104/proxy_pool**](https://github.com/jhao104/proxy_pool)
+[**proxy_pool**](https://github.com/jhao104/proxy_pool)
 
 ## 使用
 - 项目clone到本地:
